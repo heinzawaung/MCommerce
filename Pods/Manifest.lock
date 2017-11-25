@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Auk (7.0.1):
+    - moa
+  - Kingfisher (4.0.1)
+  - moa (8.0.4)
+  - PKHUD (4.2.3)
+  - Realm (2.10.1):
+    - Realm/Headers (= 2.10.1)
+  - Realm/Headers (2.10.1)
+  - RealmSwift (2.10.1):
+    - Realm (= 2.10.1)
+  - WARangeSlider (1.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Auk (from `https://github.com/evgenyneu/Auk.git`, branch `swift-4.0`)
+  - Kingfisher (~> 4.0)
+  - moa (from `https://github.com/evgenyneu/moa.git`, branch `swift-4.0`)
+  - PKHUD (from `https://github.com/pkluz/PKHUD.git`, branch `release/swift4`)
+  - RealmSwift
+  - WARangeSlider
+
+EXTERNAL SOURCES:
+  Auk:
+    :branch: swift-4.0
+    :git: https://github.com/evgenyneu/Auk.git
+  moa:
+    :branch: swift-4.0
+    :git: https://github.com/evgenyneu/moa.git
+  PKHUD:
+    :branch: release/swift4
+    :git: https://github.com/pkluz/PKHUD.git
+
+CHECKOUT OPTIONS:
+  Auk:
+    :commit: c589923eff6ad8d93813ccde50b23c45b2cd325c
+    :git: https://github.com/evgenyneu/Auk.git
+  moa:
+    :commit: 6bd220666a270107c928b951a17b93c4412295ac
+    :git: https://github.com/evgenyneu/moa.git
+  PKHUD:
+    :commit: 4d8fbf70ae912dd72280cde0a5c1440ada9a7306
+    :git: https://github.com/pkluz/PKHUD.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Auk: 6f8c4e93427d0d02641263776dd3b66ae4050903
+  Kingfisher: b771785e9461ed4b8686d40e7145f9e58100cb24
+  moa: 48cda4d9e7ef141ac72999f1e15dce1fee1f1365
+  PKHUD: 351011b853e6b942e7ee8ad335864cc84c787241
+  Realm: fc7a317a5c2c9ba91f5f235ede4e2ea76e9eba0c
+  RealmSwift: 505ed6c15942a2e76f5cfa78a8667cfa997ee75b
+  WARangeSlider: 54b3e0853b8d16c444fd539005901aecee86837d
+
+PODFILE CHECKSUM: e55e9093874dbbc28e50d21bdad599c253b8fb34
+
+COCOAPODS: 1.2.1
